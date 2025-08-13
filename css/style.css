@@ -1,0 +1,92 @@
+:root {
+  --main-bg-color: brown;
+  font-size: clamp(0.9375rem, 0.9119rem + 0.1136vw, 1rem);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a{
+    text-decoration: none; /* remove o sublinhado dos links */
+    color: black; /* altera a cor de todos os links das páginas */
+}
+
+/* Topo */
+header{
+  padding: 3vw 10vw 3vw 10vw;
+}
+header nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav h1{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+header nav ul{
+display: flex;
+}
+header nav ul li{
+  margin: 0px 16px 0px 16px;
+}
+header nav ul li.atual a{
+  color: #FB2E86;
+}
+section.banner{
+  display: flex;
+  background-color: #F2F0FF;
+  padding: 3vw 10vw 3vw 10vw;
+}
+section.banner div p.destaque{
+  color: #FB2E86;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+section.banner div h2{
+  font-weight: bold;
+  font-size: 2.9rem;
+}
+section.banner div p{
+  font-size: 0.7rem;
+  color: #8A8FB9;
+}
+section.banner div p button{
+  background-color: #FB2E86;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+}
+section.banner div.imagem{
+  width: 20%;
+  margin: 0 0 0 30%;
+}
+div p{
+  font-size: 0.9rem;
+}
+section.produtos{
+  padding: 3vw 10vw 3vw 10vw;
+}
+section.produtos h2{
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1A0B5B;
+  margin: 3vw;
+}
+section.produtos ul{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+section.produtos ul li{
+  width: 30%;
+}
+section.produtos ul li p{
+  background-color: #f7f7f7;
+
+}
+
+
+/*Best Furniture For Your Castle....
+New Furniture Collection
+Trends in 2020
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing
+in phasellus non in justo.*/
