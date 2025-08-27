@@ -83,10 +83,50 @@ section.produtos ul li p{
   background-color: #f7f7f7;
 
 }
+section.invite{
+  padding: 3vw 10vw;
+  background: url(../src/images/back-section-update.png);
+  text-align: center;
+  padding: 8vw;
+  background-position: center;
+}
+section.invite h2{
+  font-size: 2.3rem;
+  color: #151875;
+  font-weight: bold;
+}
+section.invite p button{
+  background-color: #FB2E86;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  margin: 5mm 5mm 5mm 5mm;
+}
+footer{
+display: flex;
+justify-content: space-between;
+padding: 3vw 10vw;
+background-color: #EEEFFB;
 
-
-/*Best Furniture For Your Castle....
-New Furniture Collection
-Trends in 2020
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing
-in phasellus non in justo.*/
+}
+footer div h2{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 10px;
+}
+footer div h3{
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 10px;
+}
+footer div ul li{
+  margin: 10px 10px 10px 10px;
+  color: #8A8FB9;
+}
+footer div p{
+margin: 10px 10px 10px 10px;
+color: #8A8FB9;
+}
+footer div ul li a{
+color: #8A8FB9;
+}
